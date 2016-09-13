@@ -1,0 +1,15 @@
+{
+  "name": "react-anywhere",
+  "version": "0.1.0-rc.1",
+  "description": "An opinionated environment for building cross-platform react apps",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "bin": {
+    "react-anywhere": "react-anywhere.js"
+  },
+  "dependencies": {
+    "deep-equal": "^1.0.1",
+    "fs-extra": "^0.30.0"
+  }
+}

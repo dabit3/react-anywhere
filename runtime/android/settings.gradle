@@ -1,0 +1,3 @@
+rootProject.name = 'ReactAnywhereTemplate'
+
+include ':app'

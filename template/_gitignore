@@ -1,0 +1,37 @@
+# React Anywhere
+#
+build
+
+# React Anywhere Web
+web/
+index.html
+index.js
+
+# RN
+#
+ios/
+android/
+index.android.js
+index.ios.js
+\.flowconfig
+\.buckconfig
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+# OSX
+#
+.DS_Store
+
+# BUCK
+#
+buck-out/
+\.buckd/
+android/app/libs
+android/keystores/debug.keystore
+
+# Testing
+#
+coverage
