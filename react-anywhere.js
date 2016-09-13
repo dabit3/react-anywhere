@@ -52,7 +52,7 @@ if (!requestedRaVersion && raArgs[0] === 'init') {
   try {
     versionOutput = exec('npm', ['show', 'react-anywhere', 'version']);
   } catch (e) {}
-  requestedRaVersion = versionOutput && versionOutput.toString();
+  requestedRaVersion = versionOutput && versionOutput.toString().trim();
 }
 
 // -- Use this version by default
